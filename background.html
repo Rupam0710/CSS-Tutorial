@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Background</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        /* background-repeat:repeat-x; ->repeats in horizontal direction */
+        /* background-repeat: repeat-y; -> repeats in vertcial direction */
+        /* background-repeat: no-repeat;  image not repeat */
+      }
+      .container {
+        width: 344px;
+        height: 1744px;
+        /* background-color: blue; */
+        /* background-image: url("bg-image.jpg"); */
+        /* background-repeat: no-repeat; */
+        /* background-attachment: fixed; */
+        /* background-position: top center; */
+
+        background: red url("bg-image.jpg") no-repeat scroll;
+
+        /* background-size: auto; */
+        /* border: 2px solid red; */
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid impedit
+      iure, in esse porro illum repellendus! Autem earum ea alias corrupti modi
+      mollitia commodi nisi, quisquam nulla veritatis aperiam cumque ipsam,
+      voluptate velit nobis.
+    </div>
+  </body>
+</html>
