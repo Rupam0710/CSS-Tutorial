@@ -1,0 +1,32 @@
+1. The total width/height is calculated as :
+
+Total height = height + top/bottom padding + top/bottom border + top/bottom margin
+
+2. Shorthand ->clockwise direction
+
+margin : 7px 0px 2px 11px
+        top  right bottom left
+
+margin: 7px  6px
+       top/bottom  left/right
+
+
+3. border: 2px solid black
+    border width : 3px
+    border style : solid
+    border color : black    
+
+border radius :9px -> to make the borders rounded 
+
+
+4. Margin Collapse : When 2 margins from different elements overlap the equivalent margin is te greater of the two.This is called margin collapse.
+   
+   If there are 2 boxes, 1st box has a margin of 3px and 2nd box has a margin of 7px then the bigger margin will be choosed between them.
+   Margin between them is collapsed to the bigger margin. 
+
+5.Box Sizing
+  Determines what out of padding and border is included in element's width and height. Can be content-box or border-box.
+
+  .div1{
+    box-Sizing:border-box; //The content width and height includes content + padding + border
+  }   
